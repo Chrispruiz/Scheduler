@@ -13,8 +13,9 @@ This is a daily planner to keep track of tasks by the hour.
     2. The current date is displayed at the top of the page.
     3. Each time-block is color-coded to indicate whether it is past, present, or future.
 <br>
-    ![Screenshot](/assets/Scheduler.png)
-<br>
+    
+    ![Alt Text](https://github.com/Chrispruiz/Scheduler/blob/main/assets/Screenshot.png?raw=true)
+
     
     [URL of deployment](https://chrispruiz.github.io/Scheduler/)
     
