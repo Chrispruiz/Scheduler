@@ -5,15 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
+      rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -30,39 +26,51 @@
     </header>
       <!-- Timeblocks go here -->
       <div class="container">
-        <div class="row">
-          <div class="col-sm"> 
-            9 am
-          </div>
-          <div class="col-lg">
-            <input type="text">
-          </div>
-          <div class="col-sm">
-              <button type="button" class="btn btn-save">Save changes</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm">
-            10 am
-          </div>
-          <div class="col-lg">
-            Task commentary
-          </div>
-          <div class="col-sm">
-            lock icons (save)
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm">
-            11 am
-          </div>
-          <div class="col-lg">
-            Task commentary
-          </div>
-          <div class="col-sm">
-            lock icons (save)
-          </div>
-        </div>
+        <container class="row time-block" id= "9am">
+          <div class="col-sm-1 hour">9:00 am</div>
+          <textarea class="col-sm-10 description"></textarea>
+          <button type="button" class = "col-sm-1 btn saveBtn"> save task </button>
+        </container>
+        <container class="row time-block" id= "10am">
+          <div class="col-sm-1 hour">10:00 am</div>
+          <textarea class="col-sm-10 description"></textarea>
+          <button type="button" class = "col-sm-1 btn saveBtn"> save task </button>
+        </container>
+        <container class="row time-block" id= "11am">
+          <div class="col-sm-1 hour">11:00 am</div>
+          <textarea class="col-sm-10 description"></textarea>
+          <button type="button" class = "col-sm-1 btn saveBtn"> save task </button>
+        </container>
+        <container class="row time-block" id= "12pm">
+          <div class="col-sm-1 hour">12:00 pm</div>
+          <textarea class="col-sm-10 description"></textarea>
+          <button type="button" class = "col-sm-1 btn saveBtn"> save task </button>
+        </container>
+        <container class="row time-block" id= "1pm">
+          <div class="col-sm-1 hour">1:00 pm</div>
+          <textarea class="col-sm-10 description"></textarea>
+          <button type="button" class = "col-sm-1 btn saveBtn"> save task </button>
+        </container>
+        <container class="row time-block" id= "2pm">
+          <div class="col-sm-1 hour">2:00 pm</div>
+          <textarea class="col-sm-10 description"></textarea>
+          <button type="button" class = "col-sm-1 btn saveBtn"> save task </button>
+        </container>
+        <container class="row time-block" id= "3pm">
+          <div class="col-sm-1 hour">3:00 pm</div>
+          <textarea class="col-sm-10 description"></textarea>
+          <button type="button" class = "col-sm-1 btn saveBtn"> save task </button>
+        </container>
+        <container class="row time-block" id= "4pm">
+          <div class="col-sm-1 hour">4:00 pm</div>
+          <textarea class="col-sm-10 description"></textarea>
+          <button type="button" class = "col-sm-1 btn saveBtn"> save task </button>
+        </container>
+        <container class="row time-block" id= "5pm">
+          <div class="col-sm-1 hour">5:00 pm</div>
+          <textarea class="col-sm-10 description"></textarea>
+          <button type="button" class = "col-sm-1 btn saveBtn"> save task </button>
+        </container>
       </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
