@@ -6,10 +6,7 @@ var Now = moment().format('dddd, MMMM Do YYYY');
 var display = document.getElementById('currentDay');
 display.innerHTML = Now
 
-/* $(document).ready(function () {
-  // display current date at top in div id currentDay
-  var currentDate = moment().format("dddd, MMM Do YYYY");
-  $("#currentDay").html(currentDate); */
+
 
   $(".saveBtn").on("click", function () {
     //input fields
@@ -55,7 +52,7 @@ display.innerHTML = Now
       });
     }
   hourTracker();
-/* }); */
+
 
 
 
